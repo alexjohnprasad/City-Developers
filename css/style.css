@@ -988,18 +988,8 @@ a:focus {
   background-color: #292929;
   margin: 0 10px;
 }
-.btnicon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #292929;
-  margin: 0 10px;
-}
-.btnicon i {
-  color: #292929;
+.icon i {
+  color: #fefdfc;
   font-size: 20px;
 }
 
