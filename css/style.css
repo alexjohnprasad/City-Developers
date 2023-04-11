@@ -66,7 +66,7 @@ p {
   background-image: url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  background-position: center;
 }
 
 .sub_page .hero_area {
@@ -491,8 +491,6 @@ a:focus {
 .about_section .detail-box {
   padding: 50px 15px 50px 35px;
   background-color: #fefdfc;
-  -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 76%);
-          clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 76%);
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -990,9 +988,18 @@ a:focus {
   background-color: #292929;
   margin: 0 10px;
 }
-
-.icon i {
-  color: #fff;
+.btnicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #292929;
+  margin: 0 10px;
+}
+.btnicon i {
+  color: #292929;
   font-size: 20px;
 }
 
